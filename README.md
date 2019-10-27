@@ -1,24 +1,15 @@
 # README
+## Create Envelopment
+Execute command
+ - `docker-compose build`
+ - `docker-compose up` †
+ - `docker-compose exec web rake db:create`
+ - `docker-compose exec web rails db:migrate`
+ 
+† If return `Could not locate Gemfile or .bundle/ directory`. Please Check docker file share settings.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Access to [here](http://localhost:3000)
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## refer
+[docker-setting](https://qiita.com/azul915/items/5b7063cbc80192343fc0)
